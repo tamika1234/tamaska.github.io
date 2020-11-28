@@ -1,0 +1,40 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Turret Road', cursive;
+    background: url(laptop.jpg) no-repeat center center fixed; 
+    background-size: cover;  
+    /* ctrl+shift+i -->developer tools on the firefox */
+}
+h1{
+    color: rgb(214, 144, 144);
+    font-size: 3rem;
+}
+.buffer{
+    height: 20rem;
+}
+hr{
+    border-color:orange;
+    border-width: 3px;
+    max-width: 65px;
+}
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: capitalize;
+    /* Hat Boti egy bossss, na a font weight: azzal hogy a magassagot allithatjuk */
+    /* a border radiussal tudjuk formalni a button alakunkat */
+    /* a text transformmal, azzal pedig a szoveg stilusat, nagy, nyomtatott, capitalize, stb... */
+}
+.btn-outline-light{
+    background-color: #F05F44;
+    border-color: #F05F44;
+}
+.btn-outline-light:hover{
+    border-width: 4px;
+    
+}
+.btn-xl{
+    padding:1rem 2rem;
+}
